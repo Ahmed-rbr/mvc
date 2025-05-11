@@ -16,7 +16,7 @@
           <a class="<?=urli('/mvc/price')? 'nav-link  active': 'nav-link'  ?>" href="/mvc/price">Pricing</a>
         </li>
         <li class="nav-item">
-          <a href="/mvc/dad" class="<?=urli('/mvc/dad')? 'nav-link  active': 'nav-link'  ?> " >dad</a>
+          <a href="/mvc/profail" class="<?=urli('/mvc/profail')? 'nav-link  active': 'nav-link'  ?> " >profail</a>
         </li>
       </ul>
     </div>

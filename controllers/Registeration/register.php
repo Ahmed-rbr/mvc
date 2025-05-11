@@ -1,4 +1,6 @@
 <?php
 
-view('Registretion/register.view.php');
+view('Registretion/register.view.php',
+    ['errs' => []]
+);
 

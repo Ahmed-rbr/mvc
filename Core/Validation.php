@@ -9,6 +9,13 @@ public static function string($value,$min=1,$max=INF)
 return strlen($value)>=$min 
 && strlen($value)<$max;
 }
+
+public static function hasEmptyFields($input1,$input2){
+
+return empty(trim($input1)) || empty(trim($input2));
+
+}
+
 public static function email($email){
   
 return filter_var($email,FILTER_VALIDATE_EMAIL);

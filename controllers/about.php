@@ -8,5 +8,6 @@ use Core\Database;
 
 $db=App::resolve(Database::class);
 
+view('about.view.php');
 
-show($db);
+
